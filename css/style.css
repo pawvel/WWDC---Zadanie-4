@@ -9,6 +9,10 @@ body {
   background-color: #495e7b;
 }
 
+a {
+  cursor: pointer;
+}
+
 .container {
   max-width: 1000px;
   margin: 100px auto;
@@ -84,8 +88,46 @@ body {
 .item {
   display: flex;
   height: 60px;
-  width: 100%;
+  min-width: 225px;
   align-items: center;
   background-color: #ffffff;
+  border-bottom: solid 1px #c5cdd1;
 }
+
+.item:hover {
+  background-color: #56ccc8;
+}
+
+.item i {
+  color: #c5cdd1;
+  font-size: 1.5rem;
+  margin-left: 15px;
+}
+
+.item-text {
+  color: #475055;
+  margin-left: 25px;
+}
+
+.item-contact-wrapper {
+  background-color: #c5cdd1;
+}
+
+.item-contact {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.item-contact i {
+  font-size: 1.5rem;
+  margin-left: 15px;
+  color: #ffffff;
+}
+
+.item-contact p {
+  color: #ffffff;
+}
+
 /*#endregion*/
